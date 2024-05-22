@@ -19,6 +19,14 @@ public class Account {
     public void setId(int id) {
         this.id = id;
     }
+    public Account() {
+       
+    }
+    public Account(int id, String name, int balance) {
+        this.id = id;
+        this.name = name;
+        this.balance = balance;
+    }
     public String getName() {
         return name;
     }
